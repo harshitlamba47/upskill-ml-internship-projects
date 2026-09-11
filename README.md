@@ -7,14 +7,14 @@ This package contains the two machine-learning projects completed during a four-
 
 Both projects are organized as standalone VS Code/GitHub repositories.
 
-## Recommended GitHub approach
+## GitHub Repository Structure
 
-Create two repositories:
+Both internship projects are organized in this single GitHub repository as separate project folders:
 
-- `crop-weed-detection-yolov8`
-- `turbofan-rul-prediction`
+* `project1_crop_weed` — Crop and Weed Detection with YOLOv8
+* `project2_turbofan_rul` — NASA C-MAPSS Turbofan Engine RUL Prediction
 
-Keep the large datasets and trained weights out of GitHub. The supplied `.gitignore` files already exclude them.
+Large datasets, trained model weights, and generated files are excluded from GitHub using `.gitignore`.
 
 ## What was implemented
 

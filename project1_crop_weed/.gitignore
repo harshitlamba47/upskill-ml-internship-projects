@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+runs/
+weights/
+models/
+data/raw/
+data/augmented/
+data/processed/
+*.pt
+*.onnx
+*.cache
+.DS_Store
